@@ -156,16 +156,16 @@ The Spring PetClinic sample application is released under version 2.0 of the [Ap
 [spring-petclinic-graphql]: https://github.com/spring-petclinic/spring-petclinic-graphql
 [spring-petclinic-kotlin]: https://github.com/spring-petclinic/spring-petclinic-kotlin
 [spring-petclinic-rest]: https://github.com/spring-petclinic/spring-petclinic-rest
-CI/CD Pipeline Using Jenkins and Docker
+## CI/CD Pipeline Using Jenkins and Docker
 
-This project demonstrates a simple CI/CD pipeline for a Java application using Jenkins and Docker to automate build and deployment processes.
+## This project demonstrates a simple CI/CD pipeline for a Java application using Jenkins and Docker to automate build and deployment processes.
 
-The application code was managed using GitHub, where the repository was created and updated through feature branches. Jenkins was installed and configured with a node (Node-1) connected via SSH to execute pipeline jobs.
+## The application code was managed using GitHub, where the repository was created and updated through feature branches. Jenkins was installed and configured with a node (Node-1) connected via SSH to execute pipeline jobs.
 
-Docker was set up to containerize the application, and necessary permissions were given to Jenkins to run Docker commands.
+## Docker was set up to containerize the application, and necessary permissions were given to Jenkins to run Docker commands.
 
-The pipeline automatically fetches code from GitHub, builds it using Maven, runs tests, creates a Docker image, and deploys the application as a container. The deployment is then verified to ensure it is running successfully.
+## The pipeline automatically fetches code from GitHub, builds it using Maven, runs tests, creates a Docker image, and deploys the application as a container. The deployment is then verified to ensure it is running successfully.
 
-Finally, the application can be accessed through a browser using the server IP on port 8080.
+## Finally, the application can be accessed through a browser using the server IP on port 8080.
 
-This project highlights how CI/CD improves automation, reduces manual work, and ensures faster and reliable deployments.
+## This project highlights how CI/CD improves automation, reduces manual work, and ensures faster and reliable deployments.
